@@ -1,6 +1,6 @@
 # Python fundamentals
 
-Exercises, challenges and mini projects in python.
+Ejercicios, retos y proyectos en Python.
 
 ## Authors
 
