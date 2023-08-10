@@ -9,7 +9,7 @@ def pc_guess(x):
         if lowest_number != highest_number:
             guess = random.randint(lowest_number, highest_number)
         else:
-            guess = lowest_number #could also be highest_number / low = high
+            guess = lowest_number
         feedback = input(f"Is {guess} too high (H), too low (L), or correct (C)?: ->").upper()
         if feedback == "H":
             highest_number = guess - 1
@@ -19,5 +19,4 @@ def pc_guess(x):
     print("--------------------------------------------------")
     print(f"The pc guessed your number, {guess}, correctly!!")
 
-# function call
 pc_guess(10)
