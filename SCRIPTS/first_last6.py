@@ -19,3 +19,5 @@ def first_last6(nums):
       return True
 
   return False
+
+print(first_last6([66, 2, 3, 7]))
