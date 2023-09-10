@@ -21,4 +21,4 @@ def array_count9(nums):
     return count
 
 # Corremos funcion
-print(array_count9([1, 2, 9, 99, 9]))
+print(array_count9([1, 2, 9, 9, 9, 3, 5, 9]))
